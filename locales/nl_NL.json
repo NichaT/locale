@@ -1,8 +1,8 @@
 {
   "sandbox-warning": "Dit is een sandbox-omgeving voor het testen van de API-integratie. Stuur hier nooit echt geld naar toe!",
-  "buy": "koop",
-  "sell": "verkoop",
-  "continue": "Ga verder",
+  "buy": "kopen",
+  "sell": "verkopen",
+  "continue": "Doorgaan",
   "ok": "OK",
   "back": "Terug",
   "help": "Help",
@@ -11,148 +11,148 @@
   "to": "Naar",
   "or": "of",
   "price": "Prijs",
-  "fee": "Commissie",
+  "fee": "Fee",
   "try-again": "Probeer opnieuw",
-  "refresh": "Vernieuw",
+  "refresh": "Vernieuwen",
   "finish": "Beëindigen",
   "price-each": "{{price}} per stuk",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Resterend",
   "not-available-short": "N/A",
-  "set-price": "Stel een prijs in",
-  "market": "Markt",
-  "market-price": "Marktprijs",
-  "exchange": "Markt",
-  "receive": "Ontvang",
+  "set-price": "Set a price",
+  "market": "Market",
+  "market-price": "Market price",
+  "exchange": "Exchange",
+  "receive": "Receive",
   "wallet": "Account",
   "upload": "Upload",
-  "processing": "Verwerken…",
-  "over-file-limit": "Bestandsgrootte mag niet groter zijn dan {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opent in een nieuwe tab",
-  "failed-update": "Update mislukt",
-  "reported-errors": "Fouten gerapporteerd",
+  "processing": "Processing…",
+  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Opens in new tab",
+  "failed-update": "Failed to update",
+  "reported-errors": "Errors reported",
   "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
-    "no-addresses-whitelisted": "Je hebt nog geen gewhiteliste adressen.",
-    "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om te whitelisten",
-    "add-whitelisted": " Gewhiteliste adressen",
-    "duplicate-address-in-form": "Dit adres is reeds gewhitelist.",
-    "add-address": "Voeg adres toe",
-    "address-is-not-valid": "Adres is niet geldig.",
-    "whitelisting-explanation": "Je kan met deze API-sleutel enkel fondsen opnemen naar de adressen op de witte lijst. Zodra je sleutel is gegenereerd, kun je eender wanneer adressen op de witte lijst toevoegen en verwijderen.",
+    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
+    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
+    "add-whitelisted": "Whitelisted addresses",
+    "duplicate-address-in-form": "This address is already whitelisted.",
+    "add-address": "Add address",
+    "address-is-not-valid": "Address is not valid.",
+    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
     "token-type": {
-      "access": "Toegang",
-      "kyc": "Identiteitsverificatie",
-      "apitrade": "API-handelen",
+      "access": "Access",
+      "kyc": "Identity verification",
+      "apitrade": "API trading",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Ben je zeker dat je al jouw sleutels wilt intrekken?",
-      "confirm-button-label": "Trek alle sleutels voor altijd in",
-      "cancel-button-label": "Ga terug"
+      "body": "Are you sure you want to revoke all your keys?",
+      "confirm-button-label": "Revoke all keys forever",
+      "cancel-button-label": "Go back"
     },
     "delete-token": {
-      "body": "Ben je zeker dat je ‘<0></0>’ wilt intrekken?",
-      "confirm-button-label": "Trek voor altijd in",
-      "cancel-button-label": "Ga terug"
+      "body": "Are you sure you want to revoke ‘<0></0>’?",
+      "confirm-button-label": "Revoke forever",
+      "cancel-button-label": "Go back"
     },
     "edit-whitelisted": {
-      "title": "Adres gewhitelist voor {{name}}",
-      "add": "Nog één toevoegen",
-      "save-and-close": "Veranderingen opslaan en sluiten",
-      "continue": "Ga verder"
+      "title": "Address whitelist for {{name}}",
+      "add": "Add another",
+      "save-and-close": "Saves changes and close",
+      "continue": "Continue"
     },
     "overview": {
-      "no-addresses-whitelisted": "Geen adressen gewhitelist",
-      "title": "Beheer API-sleutels",
-      "revoke-button-label": "Intrekken",
-      "table-header": "Jouw API-sleutels",
-      "no-tokens-exp": "<0>Genereer jouw eerste sleutel</0> of lees onze <1>API documentation</1>.",
-      "name": "Naam",
-      "never-used": "Nooit gebruikt",
-      "last-used": "Laatst gebruikt {{when}}",
-      "subtitle": "Genereer en beheer API-sleutels. Leer meer over <0>our APIs</0>.",
-      "key-info": "Sleutel informatie",
-      "api-key": "API-sleutel",
+      "no-addresses-whitelisted": "No addresses whitelisted",
+      "title": "Manage API keys",
+      "revoke-button-label": "Revoke",
+      "table-header": "Your API keys",
+      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
+      "name": "Name",
+      "never-used": "Never used",
+      "last-used": "Last used {{when}}",
+      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
+      "key-info": "Key information",
+      "api-key": "API key",
       "blockchains": "Blockchains",
-      "whitelisted": "Witte lijst",
-      "view-whitelist": "Bekijk witte lijst",
+      "whitelisted": "Whitelist",
+      "view-whitelist": "View whitelist",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "Deze API-sleutel werkt met deze blockchains.",
-      "usable-for": "Bruikbaar voor",
-      "revoke": "Intrekken",
-      "created": "Gecreëerd",
-      "policy-trading": "Handelen",
-      "loading": "Laden van tokens…",
-      "no-tokens": "Je hebt nog geen API-sleutels gegenereerd.",
-      "policy-withdrawals": "Stortingen en opnames",
-      "revoke-all-keys-button-label": "Alle sleutels intrekken",
-      "generate-new-key-button-label": "Genereer nieuwe sleutel",
+      "blockchains-hint": "This API key can function with these blockchains.",
+      "usable-for": "Usable for",
+      "revoke": "Revoke",
+      "created": "Created",
+      "policy-trading": "Trading",
+      "loading": "Loading tokens…",
+      "no-tokens": "You haven’t generated any API keys yet.",
+      "policy-withdrawals": "Withdrawals and deposits",
+      "revoke-all-keys-button-label": "Revoke all keys",
+      "generate-new-key-button-label": "Generate new key",
       "plus-more": "+{{count}} more"
     },
     "create-modal": {
-      "credentials-step": "Gebruikersgegevens",
-      "whitelist-step": "Gewhiteliste adressen",
-      "name-step": "Geef je sleutel een naam",
-      "last-step": "Back up geheim",
-      "title": "Genereer een nieuwe API-sleutel"
+      "credentials-step": "User credentials",
+      "whitelist-step": "Whitelist addresses",
+      "name-step": "Name your key",
+      "last-step": "Back up secret",
+      "title": "Generate new API key"
     },
     "step1": {
-      "name": "Naam",
-      "continue-button-label": "Creëer sleutel"
+      "name": "Name",
+      "continue-button-label": "Create key"
     },
     "step2": {
-      "password": "Wachtwoord",
-      "two-fa-code": "Twee stappen authenticatie code",
-      "create-api-button-label": "Ga verder",
-      "incorrect-password": "De wachtwoord die je invoerde is fout.",
-      "incorrect-2fa": "De code die je invoerde is fout."
+      "password": "Password",
+      "two-fa-code": "Two-factor authentication code",
+      "create-api-button-label": "Continue",
+      "incorrect-password": "The password you entered was incorrect.",
+      "incorrect-2fa": "The code you entered was incorrect."
     },
     "step3": {
-      "generating-keys-message": "Sleutel wordt gegenereerd…"
+      "generating-keys-message": "Generating your key…"
     },
     "step4": {
-      "your-secret": "Jouw geheim",
-      "your-secret-warning": "Dit is de enige keer dat we je dit laten zien.",
-      "api-key": "Jouw API-sleutel",
-      "api-key-warning": "Dit is de enige keer dat we je dit laten zien.",
-      "download-as-json-button-label": "Download API-sleutel en geheim als JSON",
-      "i-saved-my-secret-button-label": "Ik heb mijn geheim opgeslagen"
+      "your-secret": "Your secret",
+      "your-secret-warning": "This is the only time we’ll show you this.",
+      "api-key": "Your API key",
+      "api-key-warning": "This is the only time we’ll show you this.",
+      "download-as-json-button-label": "Download API key and secret as JSON",
+      "i-saved-my-secret-button-label": "I have saved my secret"
     }
   },
   "terse-periods": {
-    "1h": "1u",
-    "1d": "24u",
+    "1h": "1h",
+    "1d": "24h",
     "1w": "1w",
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Handelen",
-    "personal": "Persoonlijk",
+    "trading": "Trading",
+    "personal": "Personal",
     "in-trades": "In trades",
-    "transfer-funds": "Verzend/Ontvang",
-    "pending-transfer": "Je hebt een transfer in behandeling van {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "Bekijk je transfers hier."
+    "transfer-funds": "Send/Receive",
+    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "View your transfers here."
   },
-  "estimated-fee": "Geschatte commissie: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Gebruik laatste"
+    "use-last": "Use last"
   },
-  "insufficient-funds": "Onvoldoende fondsen",
-  "amount-each": "{{amount}} per stuk",
+  "insufficient-funds": "Insufficient funds",
+  "amount-each": "{{amount}} each",
   "daily-limit": {
-    "title": "Totaal dagelijkse limieten",
-    "link": "Verhoog mijn limieten",
-    "amount-of-max-amount": "{{amount}} van de {{maxAmount}}"
+    "title": "Total daily limit",
+    "link": "Increase my limits",
+    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Commissie structuur",
-    "desc": "Nash berekent het voortschrijdend gemiddelde (moving average) volume van een gebruiker gedurende 30 dagen aan de hand van het handelsvolume dat aan zijn account is gekoppeld als een percentage van het totale handelsvolume.",
-    "30-day-volume": "30-dagen volume",
-    "taker-fee": "Taker commissie",
-    "maker-fee": "Maker commissie",
-    "learn-more": "Leer meer over maker en taker orders."
+    "title": "Fee structure",
+    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
+    "30-day-volume": "30-day volume",
+    "taker-fee": "Taker fee",
+    "maker-fee": "Maker fee",
+    "learn-more": "Learn more about maker and taker orders."
   },
   "time-in-force-modal": {
     "title": "Time in force",
@@ -499,104 +499,104 @@
           "label": "I confirm that this is my country of residence."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Hierbij bevestig ik dat ik in dit land woonachtig ben."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Een account aanmaken",
+      "subheader": "Accountgegevens",
+      "continue": "Account aanmaken",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Voer een e-mailadres in",
+          "placeholder": "E-mailadres"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Een wachtwoord aanmaken",
+          "placeholder": "Wachtwoord",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Het door u gekozen wachtwoord is te zwak."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Bevestig je wachtwoord",
+          "placeholder": "Bevestig wachtwoord",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Wachtwoorden komen niet overeen."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "title": "Tips voor een sterk wachtwoord",
+          "desc": "Een sterk wachtwoord is essentieel om uw geld veilig te houden. Volg deze tips om veilig te blijven:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "Gebruik geen wachtwoord dat je op andere websites gebruikt, ook niet als je individuele woorden of karakters verandert. Als u gephisht of gehackt bent, loopt uw Nash account risico.",
+          "tip-2": "Neem geen persoonlijke informatie op in uw wachtwoord. Namen, verjaardagen en adressen zijn gemakkelijk te achterhalen en zijn het beste te vermijden.",
+          "tip-3": "Maak uw wachtwoord minimaal twaalf tekens lang en gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens.",
+          "tip-4": "Overweeg een wachtwoordgenerator te gebruiken om zeer sterke wachtwoorden aan te maken en op te slaan."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens voor een sterker wachtwoord.",
+        "tips": "Tips voor het maken van wachtwoorden",
+        "password-strength": "Wachtwoord sterkte",
+        "weak": "Zwak",
+        "medium": "Gemiddeld",
+        "strong": "Sterk",
+        "very-strong": "Zeer sterk"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "We hebben je een e-mail gestuurd!",
+      "desc-1": "Controleer uw e-mail en verifieer uw account.",
+      "desc-2": "Als u onze e-mail niet ziet, controleer dan uw ongewenste map.",
+      "resend": "Verzend verificatie-e-mail opnieuw",
+      "resend-delay": "Wacht alsjeblieft {{count}} seconde…",
+      "resend-delay_plural": "Wacht alsjeblieft {{count}} seconden…",
+      "back": "Terug naar inloggen",
+      "success": "Verificatie-e-mail opnieuw verzonden!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Fout bij opnieuw verzenden van verificatie-e-mail. Probeer het alstublieft opnieuw."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Account aanmaken",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Twaalf geheime woorden",
+      "Twee-factor-authenticatie"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Algemene informatie",
+      "header": "Laten we uw persoonlijke account maken",
+      "desc-1": "Uw persoonlijke account wordt gegenereerd met twaalf geheime woorden. Als u uw wachtwoord kwijtraakt, heeft u toegang tot uw account en kunt u uw wachtwoord met deze woorden resetten. Om deze reden moet je absoluut een back-up maken van je twaalf geheime woorden.",
+      "continue": "Genereer mijn twaalf geheime woorden",
+      "skip2Fa": "Stel het later in",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
+        "card-top": "Twaalf geheime woorden",
+        "card-top-right": "Nash accountherstel als wachtwoord vergeten is",
+        "diamond-one": "Gebruikt in",
+        "diamond-two": "Genereer uw persoonlijke account, die bevat ...",
         "card-btc": "Bitcoin account",
         "card-neo": "NEO account",
         "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-future": "Alle toekomstige accounts"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Geheime woorden",
+      "header": "Schrijf je twaalf geheime woorden op",
+      "desc": "Deze woorden worden gebruikt om toegang te krijgen tot uw geld. Je hebt ze ook nodig om je wachtwoord opnieuw in te stellen.",
+      "popup-error": "Als u uw geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en laat Nash pop-ups openen..",
+      "continue": "Ga verder",
+      "go-back": "Ga terug",
+      "written-down": "Ik heb mijn woorden opgeschreven.",
+      "check-my-backup": "Controleer mijn back-up",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Schrijf uw woorden met de hand op.",
+        "dont": "Grijp of bewaar uw woorden niet digitaal."
       },
       "modals": {
         "print-warning": {
